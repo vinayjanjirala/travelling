@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>navigation</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .header{
+            height: 20vh;
+            width: 30vw;
+            min-width: 40vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            color: black;
+
+        }
+        .logo img{
+            height: 15vh;
+            margin-left: 5vw;
+            margin-top: 2vh;
+            align-items: center;
+            display: flex;
+        }
+        a{
+            position: relative;
+            text-decoration: none;
+            color: rgb(100,100,100);
+            font-weight: 700;
+            font-size: 16px;
+            padding: 0 20px;
+            margin-left: -50vh;
+            margin-right: -50vh;
+
+        }
+        a:after{
+            content: " ";
+            position: absolute;
+            background-color: aqua;
+        }
+        #para{
+            height: 10vh;
+            width: 30vw;
+            min-width: 40vw;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            color:black;
+            font-family: sans-serif;
+        
+        }
+        #button{
+            align-items: center;
+            margin-left: 20vh;
+            color: blue;
+            height: vh;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class = "logo">
+            <img src="./logo.png" alt="logo">
+        </div>
+        <div class = "header">
+            <a href="#"> Home </a>
+            <a href="#"> About </a>
+            <a href="#"> Services </a>
+            <a href="#"> Contact us </a>
+
+        </div>
+
+       
+
+
+
+
+    </nav>
+    <div class = "layout">
+        <img src="./photo.jpg">
+        
+    </div>
+
+    <div id ="para">
+        <p> 
+            Make your tour amazing with us
+        </p>
+        <button id ="button" >Read more</button>
+    </div>
+
+</body>
+</html>
